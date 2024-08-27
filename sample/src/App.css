@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+  font-family: "Baskervville", cursive;
+  font-style: italic;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 0 20px;
+}
+
+.logo img {
+  height: 10rem;
+  width: auto;
+}
+
+.sticky-header ul {
+  list-style: none;
+  display: flex;
+  margin-left: auto;
+}
+
+.sticky-header li {
+  margin: 0 15px;
+}
+
+.sticky-header a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sticky-header a:hover {
+  color: #ece5e4;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+section {
+  padding: 60px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+section:last-child {
+  border-bottom: none;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+}
+
+.sticky-footer {
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
