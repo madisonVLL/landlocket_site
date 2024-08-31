@@ -1,4 +1,5 @@
 import './App.css';
+import React, { useState } from 'react';
 
 function genId() {
     return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
@@ -7,10 +8,11 @@ function genId() {
     });
 }
 
-const passiontmenu = [{id: genId(), item: "Jerk Chicken Wrap w/ Chips", description: "Lettuce, tomatoes, red onions, cheese, jerk ranch", price: "11.00", image: ""},
-    {id: genId(), item: "Crab Fried Rice", description: "Contains Mushrooms", price: "21.00"},
-    {id: genId(), item: "Salmon Bites", description: "Crispy, southern fried salmon bites with a side of remoulade sauce", price: "13.00"},
-    {id: genId(), item: "Chicken Hibachi Burrito", description: "Hibachi fried rice and veggies, meat choice, yum yum sauce packed into a burrito", price: "15.00"}
+const passiontmenu = [
+    {id: genId(), item: "Jerk Chicken Wrap w/ Chips", description: "Lettuce, tomatoes, red onions, cheese, jerk ranch", price: "11.00", image: "./images/jerk_wrap.jpeg"},
+    {id: genId(), item: "Crab Fried Rice", description: "Contains Mushrooms", price: "21.00", image: "./images/no_background.png"},
+    {id: genId(), item: "Salmon Bites", description: "Crispy, southern fried salmon bites with a side of remoulade sauce", price: "13.00", image: "./images/salmon_bites.jpeg"},
+    {id: genId(), item: "Chicken Hibachi Burrito", description: "Hibachi fried rice and veggies, meat choice, yum yum sauce packed into a burrito", price: "15.00", image: "./images/chicken_hibachi_burrito.jpeg"}
 ]
 
 const MenuItem = ({ item, addToCart }) => {
@@ -20,7 +22,7 @@ const MenuItem = ({ item, addToCart }) => {
         <div className="menu-item-details">
           <h3>{item.name}</h3>
           <p>{item.description}</p>
-          <span className="menu-item-price">${item.price.toFixed(2)}</span>
+          <span className="menu-item-price">${item.price}</span>
           <button onClick={() => addToCart(item)} className="add-to-cart-button">
             Add to Cart
           </button>

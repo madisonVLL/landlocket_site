@@ -1,13 +1,21 @@
 import logo from './images/no_background.png';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
 import React, { useState } from 'react';
+import Menu from './OrderOnline';
+import Hours from './Hours';
 
+const HomePage = () => {
+  return <h1>Home Page</h1>;
+};
+
+const AboutPage = () => {
+  return <h1>About Page</h1>;
+};
 
 
 function App() {
   return (
-
     <div className="App">
       <header>
         <nav class="sticky-header">
@@ -22,8 +30,12 @@ function App() {
                 <li><a href="#orderOnline">Order Online</a></li>
             </ul>
         </nav>
-    </header>
-
+      </header>
+      <body>
+        <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/ca37f308e1515a55acd31956383c8685.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style={{width:"100%", border:"0", overflow:"hidden"}}></iframe>
+        <Menu />
+        <Hours />
+      </body>
     <main>
     </main>
 
