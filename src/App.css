@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+.contentDiv {
+  font-size: large;
+  transition: 3s width;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.contentDiv:hover{
+  font-size: larger;
+  background: -webkit-linear-gradient(left, #498ec7, #e6e6e6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.fontIcon {
+  border-radius: 50%;
+  background-color: aliceblue;
+  padding: 0.5em;
+  border: 0.1em solid aliceblue;
+  background: -webkit-linear-gradient(#afeeff, #0c0f6f);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.specialStyling {
+  background: -webkit-linear-gradient(right, #498ec7, #e6e6e6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.clickDiv {
+  text-decoration: none;
+}
+.clickDiv:hover {
+  text-decoration: none;
+}
+
+.createItem {
+  border: 0.5em double #498ec7;
+  border-radius: 5%;
+  padding: 0.5em 1em 0.5em 1em;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  transition: 2s;
 }
 
-.App-link {
-  color: #61dafb;
+.createItem:hover {
+  border-radius: 5%;
+  padding: 0.5em 1em 0.5em 1em;
+  align-items: center;
+  background: -webkit-linear-gradient(right, #498ec7, #e6e6e6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: larger;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
