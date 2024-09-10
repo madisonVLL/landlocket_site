@@ -39,6 +39,8 @@
 
 .createItem {
   border: 0.5em double #498ec7;
+  color: #ffffff;
+  background-color: rgb(24, 53, 94);
   border-radius: 5%;
   padding: 0.5em 1em 0.5em 1em;
   align-items: center;
@@ -49,11 +51,14 @@
   border-radius: 5%;
   padding: 0.5em 1em 0.5em 1em;
   align-items: center;
-  background: -webkit-linear-gradient(right, #498ec7, #e6e6e6);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background-color: #afeeff;
+  color: #0c0f6f;
   font-size: larger;
+  border: 0.5em double #0c0f6f;
+}
+
+.portfolio {
+  margin: 1em;
 }
 
 

@@ -32,6 +32,17 @@ button {
   padding: 0.5em;
 }
 
+table { 
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+table th {
+  align-content: start;
+}
+
 button:hover {
   color: white;
   font-size: larger;
