@@ -3,7 +3,7 @@ import calandly from "./images/calandly-removebg-preview.png"
 
 const Contact = () => {
     return (
-        <div>
+        <div style={{alignItems: "center", alignContent: "center"}}>
         <table style={{marginLeft: "auto", marginRight: "auto", width: "100%"}}>
             <tr>
                 <th style={{width: "50%"}} className='contentDiv'>
