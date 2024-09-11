@@ -80,7 +80,7 @@
 }
 
 .buttonStyle:hover {
-  font-size: 2rem;
+  background-color: #498ec7;
 }
 
 /* Focus Styles for Accessibility */
