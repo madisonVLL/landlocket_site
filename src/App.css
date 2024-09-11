@@ -18,7 +18,7 @@
 
 /* Hover Effect for Content */
 .contentDiv:hover {
-  font-size: 1.5rem;
+  background-image: linear-gradient(#397fb9, #1F4671);
 }
 
 /* Font Icon Styling */
@@ -85,7 +85,7 @@
 
 /* Focus Styles for Accessibility */
 :focus {
-  outline: 3px solid #ffcc00;
+  outline: 3px solid #ffffff;
 }
 
 /* Responsive Media Queries */

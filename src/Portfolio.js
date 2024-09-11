@@ -1,6 +1,5 @@
 import "./App.css"
 import passionT from "./images/PTPhome.png"
-import useWindowSize from "./windowSize"
 
 const portfolio_sites = [{title: "Passion T Plates LLC Resturant", url: "http://localhost:3001/", photo: passionT}]
 
@@ -9,7 +8,7 @@ const portfolio_sites = [{title: "Passion T Plates LLC Resturant", url: "http://
 function Project(site) {
     return (
         <div className="contentDiv" style={{margin: "1em"}}>
-            <a href={site.url} target="_blank"> <h1 style={{textAlign: "center"}}><i>{site.title}</i></h1><img src={site.photo} alt={site.title} style={{width: "100%", borderRadius: "2em"}}></img></a>
+            <a href={site.url} target="_blank"> <h1><i>{site.title}</i></h1><br></br><img src={site.photo} alt={site.title} style={{width: "100%", borderRadius: "2em"}}></img></a>
         </div>
     )
 }
