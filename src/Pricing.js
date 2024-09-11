@@ -9,24 +9,10 @@ const pricingFeatures = [{title: "Website Building", description: "Build respons
 
 const PriceItem = ({buildState}) => {
     return (
-        <div className="createItem">
+        <div>
             <h2 style={{textAlign: "center"}}>{buildState.title}</h2>
             <p>{buildState.description}</p>
             <h2 style={{textAlign: "center"}}>${buildState.price}</h2>
-        </div>
-    )
-
-}
-
-const ItemPrice = ({buildState}) => {
-    return (
-        <div class="image-container">
-            <img src={trim} alt="Background image for content" />
-            <div class="overlay-text">
-                <h2 style={{textAlign: "center"}}>{buildState.title}</h2>
-                <p>{buildState.description}</p>
-                <h2 style={{textAlign: "center"}}>${buildState.price}</h2>
-            </div>
         </div>
     )
 
@@ -43,10 +29,15 @@ const Pricing = () => {
         <div>
             <table>
                 <tr>
-                {items.map((category) => <th style={{margin: "1em"}}>{category}</th>)}
+                {items.map((category) => <th style={{margin: "1em"}} className="contentDiv">{category}</th>)}
                 </tr>
             </table>
-            <a target="_blank" href="https://calendly.com/madison-landlocket/30min"><h1 style={{textAlign: "center", width: "fit-content", borderRadius: "5em", backgroundColor: "rgb(24, 53, 94)", padding: "1em", border: "0.5em double white", marginLeft: "0", marginRight: "0"}}>Book a Consulation <span><FontAwesomeIcon  icon={faArrowAltCircleRight}/></span></h1></a>
+            <div style={{textAlign: "center", margin: "auto", width: "50%"}}>
+                <a target="_blank" href="https://calendly.com/madison-landlocket/30min">
+                    <h1 className="buttonStyle">
+                    Book a Consulation <span><FontAwesomeIcon  icon={faArrowAltCircleRight}/></span></h1>
+                </a>
+            </div>
         </div> 
     )
 }

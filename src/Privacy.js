@@ -2,7 +2,7 @@ import "./App.css"
 
 const PrivacyPolicy = () => {
     return (
-        <div style={{padding: "1em"}}>
+        <div style={{border: "1em double white", borderRadius: "2em", padding: "1em", backgroundColor: "#1F4671"}}>
         <h1>Privacy Policy</h1>
         <p><strong>Effective Date:</strong> September 4th, 2024</p>
         <h2>1. Introduction</h2>

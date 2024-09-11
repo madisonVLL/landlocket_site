@@ -12,7 +12,7 @@ body {
 }
 
 a {
-  color: white;
+  color: #e6e6e6;
   text-decoration: none;
 }
 
@@ -27,7 +27,7 @@ li {
 
 button {
   border-radius: 1em;
-  color: white;
+  color: #e6e6e6;
   background-color: #498ec7;
   border: none;
   font-size: large;
@@ -41,6 +41,7 @@ table {
   width: 100%;
   table-layout: fixed;
   border-spacing: 1em;
+  word-wrap: normal;
 }
 
 table th {
@@ -49,7 +50,7 @@ table th {
 }
 
 button:hover {
-  color: white;
+  color: #e6e6e6;
   font-size: larger;
 
 }
@@ -79,16 +80,17 @@ nav ul {
 
 .link {
   text-decoration: none;
-  color: white;
+  color: #e6e6e6;
 }
 
 .link:hover {
   text-decoration: underline;
   font-style: italic;
-  background: -webkit-linear-gradient(right, #498ec7, #e6e6e6);
+  background: -webkit-linear-gradient(right, #397fb9, #1F4671);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-shadow: none;
 }
 
 .navbar {
@@ -115,7 +117,7 @@ nav ul {
 }
 
 .nav-links a {
-  color: white;
+  color: #e6e6e6;
   text-decoration: none;
   font-size: 1rem;
   transition: 0.3s;
@@ -124,7 +126,7 @@ nav ul {
 /* Mobile Menu Icon */
 .mobile-menu-icon {
   display: none;
-  color: white;
+  color: #e6e6e6;
   font-size: 2rem;
   padding: 1em;
   background: none;
