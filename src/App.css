@@ -14,13 +14,10 @@
 
 .fontIcon {
   border-radius: 50%;
-  background-color: aliceblue;
+  background-color: transparent;
   padding: 0.5em;
   border: 0.1em solid aliceblue;
-  background: -webkit-linear-gradient(#afeeff, #0c0f6f);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  
 }
 
 .specialStyling {
@@ -28,6 +25,9 @@
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-shadow: none;
+  font-weight: bolder;
+
 }
 
 .clickDiv {
@@ -38,29 +38,25 @@
 }
 
 .createItem {
-  border: 0.5em double #498ec7;
   color: #ffffff;
+  border: 0.5em double #498ec7;
   background-color: rgb(24, 53, 94);
-  border-radius: 5%;
+  border-radius: 2em;
   padding: 0.5em 1em 0.5em 1em;
   align-items: center;
-  transition: 2s;
+  transition: 2s ease;
 }
 
 .createItem:hover {
-  border-radius: 5%;
   padding: 0.5em 1em 0.5em 1em;
   align-items: center;
-  background-color: #afeeff;
-  color: #0c0f6f;
+  border-radius: 2em;
+  border: 0.5em double  white;
+  background-color: #498ec7;
   font-size: larger;
-  border: 0.5em double #0c0f6f;
 }
+
 
 .portfolio {
   margin: 1em;
 }
-
-
-
-

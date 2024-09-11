@@ -7,12 +7,9 @@ const portfolio_sites = [{title: "Passion T Plates LLC Resturant", url: "http://
 
 
 function Project(site) {
-    const { width, height }= useWindowSize()
-    var img_size = String(width / 2) + "px"
     return (
-        <div className="portfolio">
-            <h1><i>{site.title}</i></h1>
-            <a href={site.url} target="_blank"><img src={site.photo} alt={site.title} style={{width: img_size}}></img></a>
+        <div className="createItem" style={{margin: "1em"}}>
+            <a href={site.url} target="_blank"> <h1 style={{textAlign: "center"}}><i>{site.title}</i></h1><img src={site.photo} alt={site.title} style={{width: "100%", borderRadius: "2em"}}></img></a>
         </div>
     )
 }
