@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/madisonVLL/landlocket_site/static/css/main.020ace81.css",
-    "main.js": "/madisonVLL/landlocket_site/static/js/main.7531a172.js",
-    "static/js/453.271162c3.chunk.js": "/madisonVLL/landlocket_site/static/js/453.271162c3.chunk.js",
-    "static/media/PTPhome.png": "/madisonVLL/landlocket_site/static/media/PTPhome.2f8ce7e81686d3861365.png",
-    "static/media/background1.jpeg": "/madisonVLL/landlocket_site/static/media/background1.0d0582daa7b5d3a52c7b.jpeg",
-    "static/media/calandly-removebg-preview.png": "/madisonVLL/landlocket_site/static/media/calandly-removebg-preview.02e72666e383fe634e7d.png",
-    "static/media/WA_with_background.png": "/madisonVLL/landlocket_site/static/media/WA_with_background.9b8f24c657e0318f1afb.png",
-    "index.html": "/madisonVLL/landlocket_site/index.html",
-    "main.020ace81.css.map": "/madisonVLL/landlocket_site/static/css/main.020ace81.css.map",
-    "main.7531a172.js.map": "/madisonVLL/landlocket_site/static/js/main.7531a172.js.map",
-    "453.271162c3.chunk.js.map": "/madisonVLL/landlocket_site/static/js/453.271162c3.chunk.js.map"
+    "main.css": "/landlocket_site/static/css/main.7681dd6f.css",
+    "main.js": "/landlocket_site/static/js/main.c2f73b95.js",
+    "static/js/453.271162c3.chunk.js": "/landlocket_site/static/js/453.271162c3.chunk.js",
+    "static/media/PTPhome.png": "/landlocket_site/static/media/PTPhome.2f8ce7e81686d3861365.png",
+    "static/media/background1.jpeg": "/landlocket_site/static/media/background1.0d0582daa7b5d3a52c7b.jpeg",
+    "static/media/calandly-removebg-preview.png": "/landlocket_site/static/media/calandly-removebg-preview.02e72666e383fe634e7d.png",
+    "static/media/WA_with_background.png": "/landlocket_site/static/media/WA_with_background.9b8f24c657e0318f1afb.png",
+    "index.html": "/landlocket_site/index.html",
+    "main.7681dd6f.css.map": "/landlocket_site/static/css/main.7681dd6f.css.map",
+    "main.c2f73b95.js.map": "/landlocket_site/static/js/main.c2f73b95.js.map",
+    "453.271162c3.chunk.js.map": "/landlocket_site/static/js/453.271162c3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.020ace81.css",
-    "static/js/main.7531a172.js"
+    "static/css/main.7681dd6f.css",
+    "static/js/main.c2f73b95.js"
   ]
 }
