@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/landlocket_site/static/css/main.7681dd6f.css",
-    "main.js": "/landlocket_site/static/js/main.c2f73b95.js",
+    "main.js": "/landlocket_site/static/js/main.0d36ad14.js",
     "static/js/453.271162c3.chunk.js": "/landlocket_site/static/js/453.271162c3.chunk.js",
     "static/media/PTPhome.png": "/landlocket_site/static/media/PTPhome.2f8ce7e81686d3861365.png",
     "static/media/background1.jpeg": "/landlocket_site/static/media/background1.0d0582daa7b5d3a52c7b.jpeg",
@@ -9,11 +9,11 @@
     "static/media/WA_with_background.png": "/landlocket_site/static/media/WA_with_background.9b8f24c657e0318f1afb.png",
     "index.html": "/landlocket_site/index.html",
     "main.7681dd6f.css.map": "/landlocket_site/static/css/main.7681dd6f.css.map",
-    "main.c2f73b95.js.map": "/landlocket_site/static/js/main.c2f73b95.js.map",
+    "main.0d36ad14.js.map": "/landlocket_site/static/js/main.0d36ad14.js.map",
     "453.271162c3.chunk.js.map": "/landlocket_site/static/js/453.271162c3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7681dd6f.css",
-    "static/js/main.c2f73b95.js"
+    "static/js/main.0d36ad14.js"
   ]
 }
