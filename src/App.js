@@ -2,7 +2,7 @@ import './App.css';
 import NavBar from './Navbar';
 import Contact from './Contact';
 import Home from './Welcome';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate} from 'react-router-dom';
 import Footer from './Footer';
 import PrivacyPolicy from './Privacy';
 import Portfolio from './Portfolio';
@@ -20,6 +20,7 @@ function App() {
           <Route path="/WhatWeDo" element={<AboutUs />} />
           <Route path="/Pricing" element={<Pricing />} />
           <Route path="/Privacy" element={<PrivacyPolicy />}/>
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />
       </Router>
