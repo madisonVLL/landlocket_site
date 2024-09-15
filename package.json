@@ -1,7 +1,7 @@
 {
   "name": "web_ality_site",
   "version": "0.1.0",
-  "homepage": "https://landlocket.com/",
+  "homepage": "https://madisonvll.github.io/landlocket_site//",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
